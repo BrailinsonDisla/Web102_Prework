@@ -35,6 +35,9 @@ function addGamesToPage(games) {
         // add the class game-card to the list
         element.classList.add('game-card');
 
+        // add appropriate color for funded or unfunded games
+        element.classList.add(`${game.pledged >= game.goal ? 'funded' : 'unfunded'}`)
+
         // set the inner HTML using a template literal to display some info about each game
         element.innerHTML = `
                 <img src="${game.img}" class="game-img" alt="${game.name}'s Image" />
