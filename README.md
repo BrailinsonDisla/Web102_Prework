@@ -17,8 +17,9 @@ The following **required** functionality is completed:
 
 The following **optional** features are implemented:
 
-* [ ] List anything else that you can get done to improve the app functionality!
+* [x] List anything else that you can get done to improve the app functionality!
 * [x] The Game Cards fade in rotating when the page loads and when the filters are applied.
+* [x] The Game Cards for funded games are applied a `yellowgreen` background color, `salmon` otherwise.
 
 ## Video Walkthrough
 
